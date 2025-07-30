@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+HU:wght@100..400&display=swap');
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #1c1c1c;
+  color: #eaeaea;
+}
+
+/* Fuente manuscrita para títulos */
+h1, h2 {
+  font-family: 'Playwrite HU';
+}
+
+/* Portada */
+.portada {
+  background-color: #a4133c;
+  color: #ffffff;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.portada h1 {
+  font-size: 2rem;
+  margin: 0;
+  color: #ff8fa3;
+}
+
+/* Momentos */
+.momentos {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.momento {
+  background-color: #2a2a2a;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.momento img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.texto {
+  padding: 1rem;
+}
+
+.texto h2 {
+  color: #ff758f;
+  margin-bottom: 0.5rem;
+}
+
+.texto p {
+  color: #cccccc;
+  font-size: 1.3rem;
+}
+
+/* Mensaje final */
+.mensaje-final {
+  background-color: #2e2e2e;
+  color: #ff8fa3;
+  border-left: 4px solid #a4133c;
+  margin: 2rem 0 1rem;
+  padding: 1rem;
+  font-style: italic;
+  border-radius: 8px;
+}
+
+/* Pie de página */
+.pie {
+  text-align: center;
+  background-color: #a4133c;
+  color: #ffffff;
+  padding: 1rem;
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+
+/* Responsive */
+@media (min-width: 600px) {
+  .momentos {
+    max-width: 600px;
+    margin: auto;
+  }
+}
